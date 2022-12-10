@@ -127,7 +127,7 @@ cerrarCarrito.addEventListener("click", ()=> {
   }
   tbodyCarrito.addEventListener('click', e => {
     
-    if(e.target.classList.contains('button')) {
+    if(e.target.classList.contains('button-qty')) {
       aumentarDisminuir(e.target)
     }
   })
