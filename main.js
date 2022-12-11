@@ -55,8 +55,6 @@ const guardarProducto = () => {
   const cerrarCarrito = document.querySelector("#close-btn");
 
   const totalCarrito = document.querySelector('.total-price');
-
-  
   
   // abrir el carrito 
 btnCarrito.addEventListener("click", ()=> {
